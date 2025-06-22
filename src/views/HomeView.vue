@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import OfficialLink from '@/components/OfficialLink.vue'
+</script>
 
 <template>
   <div class="view-wrapper">
@@ -14,6 +16,7 @@
         <RouterLink to="/links">ページ集へ</RouterLink>
       </li>
     </ul>
+    <OfficialLink></OfficialLink>
   </div>
 </template>
 

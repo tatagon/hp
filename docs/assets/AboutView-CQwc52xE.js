@@ -1,1 +1,0 @@
-import{c as t,a as s,b as a,O as o,o as r}from"./index-wOB3P-L-.js";const n={class:"view-wrapper"},u={__name:"AboutView",setup(l){return(i,e)=>(r(),t("div",n,[e[0]||(e[0]=s("h1",null,"このサイトについて",-1)),e[1]||(e[1]=s("p",null,"このサイトは、Vue.jsの学習用に作成されました。",-1)),a(o)]))}};export{u as default};

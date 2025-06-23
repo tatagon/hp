@@ -4,10 +4,7 @@ import OfficialLink from '@/components/OfficialLink.vue'
 
 <template>
   <div class="view-wrapper">
-    <h1>HOME Vue3</h1>
-    <p>
-      <img src="@/assets/logo.svg" alt="Vueのロゴ画像" width="100" />
-    </p>
+    <h1>HOME</h1>
     <ul>
       <li>
         <RouterLink to="/about">このサイトは何？</RouterLink>
@@ -23,11 +20,18 @@ import OfficialLink from '@/components/OfficialLink.vue'
 <style>
 .view-wrapper {
   padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
 }
 h1 {
   color: #42b983;
   font-size: 2rem;
   margin-bottom: 20px;
+  text-align: center;
+}
+.logo {
+  text-align: center;
 }
 p {
   font-size: 1.2rem;

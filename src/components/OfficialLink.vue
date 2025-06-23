@@ -9,7 +9,9 @@ div {
   margin-top: 50px;
 }
 a {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px 20px;
   background-color: #42b983;
   color: white;

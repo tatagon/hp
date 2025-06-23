@@ -17,6 +17,11 @@
     </nav>
   </header>
   <RouterView></RouterView>
+  <footer>
+    <div class="copyright">
+      <small>&copy; 2025 tatagon</small>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
@@ -44,5 +49,17 @@ nav a {
 }
 nav a:hover {
   text-decoration: underline;
+}
+.copyright {
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  padding: 1em;
+  box-sizing: border-box;
+  background-color: #000;
+}
+.copyright small {
+  font-size: 16px;
+  font-weight: 500;
 }
 </style>

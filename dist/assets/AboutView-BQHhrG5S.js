@@ -1,0 +1,1 @@
+import{c as s,a as t,b as o,O as a,o as n}from"./index-CW3EGy9H.js";const r={class:"view-wrapper"},u={__name:"AboutView",setup(l){return(p,e)=>(n(),s("div",r,[e[0]||(e[0]=t("h1",null,"このサイトについて",-1)),e[1]||(e[1]=t("p",null,"このサイトは、Vue.jsの学習用に作成されました。",-1)),e[2]||(e[2]=t("p",null,"作成者: tatagon",-1)),o(a)]))}};export{u as default};
